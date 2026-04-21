@@ -1,0 +1,72 @@
+# === 敏感凭证 ===
+providers.json
+auth-profiles.json
+claude.env
+*.env
+.env*
+secrets.json
+security_whitelist.json
+exec-approvals.json
+
+# === OpenClaw 运行时数据 ===
+.openclaw/config/providers.json
+config/mcporter.json
+.openclaw/
+logs/
+metrics/
+sessions/
+agents/
+canvas/
+media/
+memory/ephemeral/
+memory/raw/
+cron/
+flows/
+protection/
+subagents/
+tasks/
+devices/
+completions/
+node_modules/
+v8/
+context-api/
+extensions/
+feishu/
+openclaw-weixin/
+qqbot/
+proxy/
+scripts/gateway护盾*
+scripts/v2ray*
+home/
+state/
+
+# === 备份与临时文件 ===
+*.bak
+*.bak.*
+*.backup
+*.clobbered*
+*.save
+*.save.*
+:Zone.Identifier
+*.Zone.Identifier
+
+# === Git ===
+.crone-revivers/
+.memory_backups/
+.learnings/
+
+# === 编辑器与系统 ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# === 敏感 Skills（含 env-harvesting 警告）===
+skills/openclaw-github-assistant/
+skills/openclaw-weixin/
+
+# === 本地构建产物 ===
+dist/
+build/
+*.log
