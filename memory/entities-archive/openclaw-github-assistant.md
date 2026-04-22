@@ -2,7 +2,7 @@
 title: openclaw-github-assistant
 type: entity
 status: auto-ingested
-last_updated: 2026-04-21
+last_updated: 2026-04-22
 tags: [auto, skill]
 ---
 
@@ -14,7 +14,7 @@ tags: [auto, skill]
 
 - 类型: skill
 - 路径: openclaw-github-assistant
-- 摄入时间: 2026-04-21 19:31
+- 摄入时间: 2026-04-22 00:01
 
 ## 分析
 
