@@ -1,6 +1,6 @@
 ---
 version: 1.0
-last_updated: 2026-04-16T04:00:00+08:00
+last_updated: 2026-04-23T01:13:00+08:00
 maintainer: ai
 ttl_days: 90
 ---
@@ -15,7 +15,17 @@ ttl_days: 90
 - [项目: OpenClaw](memory/projects/openclaw.md)
 - [固化知识](memory/knowledge.md)
 - [临时记忆](memory/ephemeral/)（自动清理）
+- [Recall 记忆](memory/recall/last_recall.md)（最近24小时任务摘要）
 - [实体页](memory/entities/) — 核心 25 个
+
+## 🔄 Recall 系统
+
+> AI 每次会话开始时应读取 `memory/recall/last_recall.md` 了解最近24小时的任务和重要实体。
+
+运行命令生成新 recall：
+```bash
+node /home/ai/.openclaw/workspace/skills/memory-recall/recall.js
+```
 
 ## 🧠 实体页 (核心 25)
 
